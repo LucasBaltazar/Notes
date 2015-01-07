@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <Button
+                    android:text="@string/notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button1"
+                    style="@style/button_text"
+                    android:textColor="@drawable/button_action"
+                    android:background="@drawable/button"
+                    android:onClick="menuButton"/>
+
+                <Button
+                    android:text="@string/newnote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2"
+                    style="@style/button_text"
+                    android:textColor="@drawable/button_action"
+                    android:background="@drawable/button"
+                    android:onClick="menuButton"/>
+                <Button
+                    android:text="@string/concluded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3"
+                    style="@style/button_text"
+                    android:textColor="@drawable/button_action"
+                    android:background="@drawable/button"
+                    android:onClick="menuButton"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleN"
+            android:background="@drawable/edittext"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:gravity="top"
+            android:background="@drawable/bigedittext"
+            android:id="@+id/descriptionN"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveNote"
+            android:text="@string/save"
+            android:onClick="saveNote"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/concludedNote"
+            android:text="@string/concludedNote"
+            android:onClick="concludeNote"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notes</string>
+    <string name="notes">Anotações</string>
+    <string name="newnote">Nova</string>
+    <string name="save">Salvar</string>
+    <string name="savedNote">Anotação salva!</string>
+    <string name="savedConcludedNote">Anotação concluída!</string>
+    <string name="errorSaved">Falha ao salvar registro!</string>
+    <string name="title">Título</string>
+    <string name="remove">Remover</string>
+    <string name="edit">Editar</string>
+    <string name="leave">Sair</string>
+    <string name="concludedNote">Concluir Anotação</string>
+    <string name="description">Descrição</string>
+    <string name="concluded">Concluídas</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
